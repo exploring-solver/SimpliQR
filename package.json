@@ -1,0 +1,29 @@
+{
+  "name": "hack40",
+  "version": "1.0.0",
+  "description": "A mobile responsive sample of E-Commerce Website using HTML, CSS, JavaScript and API's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atulit23/hack40.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atulit23/hack40/issues"
+  },
+  "homepage": "https://github.com/Atulit23/hack40#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.0"
+  }
+}

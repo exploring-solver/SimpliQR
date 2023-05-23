@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+</head>
+<body>
+    <!-- login.hbs -->
+<div class="tab-content">
+  <div id="login" class="tab-pane active">
+    <h3>Login</h3>
+    <!-- Login form -->
+    <form action="/login" method="POST">
+      <!-- Login form fields -->
+      <!-- Username field -->
+      <input type="text" name="username" placeholder="Username" required>
+      <!-- Password field -->
+      <input type="password" name="password" placeholder="Password" required>
+      <!-- Login button -->
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <div id="signup" class="tab-pane">
+    <h3>Sign Up</h3>
+    <!-- Signup form -->
+    <form action="/signup" method="POST">
+      <!-- Signup form fields -->
+      <!-- Username field -->
+      <input type="text" name="username" placeholder="Username" required>
+      <!-- Password field -->
+      <input type="password" name="password" placeholder="Password" required>
+      <!-- Signup button -->
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
